@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		7CE4DDF3233B165900F00E15 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7CE4DDF2233B165900F00E15 /* main.cpp */; };
+		7CE4DDFB233B167500F00E15 /* Employee.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7CE4DDF9233B167500F00E15 /* Employee.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,16 @@
 /* Begin PBXFileReference section */
 		7CE4DDEF233B165900F00E15 /* XML-Parser */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "XML-Parser"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CE4DDF2233B165900F00E15 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		7CE4DDF9233B167500F00E15 /* Employee.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Employee.cpp; sourceTree = "<group>"; };
+		7CE4DDFA233B167500F00E15 /* Employee.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Employee.hpp; sourceTree = "<group>"; };
+		7CE4DDFC233B16AC00F00E15 /* employee7.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = employee7.xml; sourceTree = "<group>"; };
+		7CE4DDFD233B16AC00F00E15 /* employee4.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = employee4.xml; sourceTree = "<group>"; };
+		7CE4DDFE233B16AC00F00E15 /* employee2.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = employee2.xml; sourceTree = "<group>"; };
+		7CE4DDFF233B16AD00F00E15 /* employee3.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = employee3.xml; sourceTree = "<group>"; };
+		7CE4DE00233B16AD00F00E15 /* employee5.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = employee5.xml; sourceTree = "<group>"; };
+		7CE4DE01233B16AD00F00E15 /* employee.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = employee.xml; sourceTree = "<group>"; };
+		7CE4DE02233B16AD00F00E15 /* employee8.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = employee8.xml; sourceTree = "<group>"; };
+		7CE4DE03233B16AD00F00E15 /* employee6.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = employee6.xml; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +68,17 @@
 		7CE4DDF1233B165900F00E15 /* XML-Parser */ = {
 			isa = PBXGroup;
 			children = (
+				7CE4DE01233B16AD00F00E15 /* employee.xml */,
+				7CE4DDFE233B16AC00F00E15 /* employee2.xml */,
+				7CE4DDFF233B16AD00F00E15 /* employee3.xml */,
+				7CE4DDFD233B16AC00F00E15 /* employee4.xml */,
+				7CE4DE00233B16AD00F00E15 /* employee5.xml */,
+				7CE4DE03233B16AD00F00E15 /* employee6.xml */,
+				7CE4DDFC233B16AC00F00E15 /* employee7.xml */,
+				7CE4DE02233B16AD00F00E15 /* employee8.xml */,
 				7CE4DDF2233B165900F00E15 /* main.cpp */,
+				7CE4DDF9233B167500F00E15 /* Employee.cpp */,
+				7CE4DDFA233B167500F00E15 /* Employee.hpp */,
 			);
 			path = "XML-Parser";
 			sourceTree = "<group>";
@@ -120,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7CE4DDF3233B165900F00E15 /* main.cpp in Sources */,
+				7CE4DDFB233B167500F00E15 /* Employee.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
